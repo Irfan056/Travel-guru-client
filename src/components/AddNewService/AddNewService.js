@@ -6,7 +6,7 @@ const AddNewService = () => {
 
     const onSubmit = data => {
         // const url = `http://localhost:5000/addNewRoom`;
-        const url = `https://scary-goblin-67655.herokuapp.com/addNewRoom`;
+        const url = `https://safe-caverns-74752.herokuapp.com/addNewRoom`;
         fetch(url, {
             method: 'POST',
             headers: {

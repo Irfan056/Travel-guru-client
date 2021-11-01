@@ -1,9 +1,9 @@
 const firebaseConfig = {
-    apiKey: "AIzaSyBR5YLH9epLBNbP5rrjPt2sr2rDx-x4ZmQ",
-    authDomain: "alvi-tourism-explore.firebaseapp.com",
-    projectId: "alvi-tourism-explore",
-    storageBucket: "alvi-tourism-explore.appspot.com",
-    messagingSenderId: "648787602337",
-    appId: "1:648787602337:web:0c51fe654a0a3894d4f9e0"
+    apiKey: "AIzaSyCcK2hrgh1JBqlHDq12e79PXk2cdJgXbsQ",
+    authDomain: "travel-reservation.firebaseapp.com",
+    projectId: "travel-reservation",
+    storageBucket: "travel-reservation.appspot.com",
+    messagingSenderId: "235387518543",
+    appId: "1:235387518543:web:c9f76e10332917a78a343a"
 };
 export default firebaseConfig;

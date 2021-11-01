@@ -3,30 +3,42 @@ import { Button, Col, Container, Row } from 'react-bootstrap';
 
 const Contact = () => {
     return (
-        <div className="subComponent-lg bg-light" id="contactBody">
+        <div className="subComponent-lg bg-success text-white" id="contactBody">
             <Container>
-                <header className="headerTitle text-center">
-                    <h1>Contact</h1>
-                    <p>GET IN TOUCH WITH US</p>
+                <header className="headerTitle text-center pt-5">
+                    <h1>Contact with Us </h1>
+                    <br />
                 </header>
                 <section className="svg-group text-center">
                     <Row>
                         <Col lg="4" md="4">
                             <div className="svg-card-3">
-                                {/* <Phone width="50" height="55" strokeWidth="1" /> */}
-                                <p>0912 345 6789</p>
+
+                                <p>Phone :0177642525</p>
+                                <br />
+                                <p>Phone :0173636778</p>
+                                <br />
+                                <p> phone :01845467775</p>
                             </div>
                         </Col>
                         <Col lg="4" md="4">
                             <div className="svg-card-3">
-                                {/* <MapPin width="55" height="55" strokeWidth="1" /> */}
-                                <p>Chittagong, Bangladesh</p>
+
+                                <p>America</p>
+                                <br />
+                                <p>Canada</p>
+                                <br />
+                                <p>Australia</p>
                             </div>
                         </Col>
                         <Col lg="4" md="4">
                             <div className="svg-card-3">
-                                {/* <Mail width="55" height="55" strokeWidth="1" /> */}
-                                <p>alvitourism@gmail.com</p>
+
+                                <p>Harry Potter</p>
+                                <br />
+                                <p>smith256@yahoo.com</p>
+                                <br />
+                                <p>morrisharry@gmail.com</p>
                             </div>
                         </Col>
                     </Row>
@@ -38,14 +50,17 @@ const Contact = () => {
                         <Row>
                             <Col sm="6">
                                 <input
+
                                     type="text"
                                     name="Name"
                                     id="reviewer-name"
-                                    placeholder="Your Name"
+                                    placeholder="Your name please"
                                     required
                                 />
                                 <br />
+                                <br />
                                 <input
+                                    className="mb-5"
                                     type="email"
                                     name="Email"
                                     id="reviewer-email"
@@ -54,15 +69,19 @@ const Contact = () => {
                                 />
                             </Col>
                             <Col>
-                                <textarea
-                                    name="Message"
-                                    id="reviewer-message"
-                                    rows="4"
-                                    placeholder="Your Message"
-                                />
-                                <Button outline color="light" className="float-left">
-                                    Send Message
+                                <div className="d-block">
+                                    <textarea
+                                        name="Message"
+                                        id="reviewer-message"
+                                        rows="4"
+                                        placeholder="Your Message"
+                                    />
+                                    <br />
+
+                                    <Button outline color="light" className="me-5 mb-5" >
+                                        Send Message
                   </Button>
+                                </div>
                             </Col>
                         </Row>
                     </form>

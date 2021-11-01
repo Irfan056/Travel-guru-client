@@ -11,7 +11,7 @@ const MyOrders = () => {
 
     useEffect(() => {
         // const url = `http://localhost:5000/myOrders/${user.email}`;
-        const url = `https://scary-goblin-67655.herokuapp.com/myOrders/${user.email}`;
+        const url = `https://safe-caverns-74752.herokuapp.com/myOrders/${user.email}`;
         fetch(url)
             .then(res => res.json())
             .then(data => setMyOrders(data))
@@ -19,7 +19,7 @@ const MyOrders = () => {
 
     useEffect(() => {
         // const url = `http://localhost:5000/rooms`;
-        const url = `https://scary-goblin-67655.herokuapp.com/rooms`;
+        const url = `https://safe-caverns-74752.herokuapp.com/rooms`;
         fetch(url)
             .then(res => res.json())
             .then(data => {
@@ -44,8 +44,8 @@ const MyOrders = () => {
 
     const handleCancelOrder = (id) => {
         console.log(id);
-        // const url = `http://localhost:5000/deleteOrder/${id}`;
-        const url = `https://scary-goblin-67655.herokuapp.com/deleteOrder/${id}`;
+        const url = `https://safe-caverns-74752.herokuapp.com/deleteOrder/${id}`;
+
         fetch(url, {
             method: 'DELETE'
         })

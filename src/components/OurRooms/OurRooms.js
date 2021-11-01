@@ -10,7 +10,7 @@ const OurRooms = () => {
 
     useEffect(() => {
         // const url = `http://localhost:5000/rooms`;
-        const url = `https://scary-goblin-67655.herokuapp.com/rooms`;
+        const url = `https://safe-caverns-74752.herokuapp.com/rooms`;
         fetch(url)
             .then(res => res.json())
             .then(data => setRooms(data))

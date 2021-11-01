@@ -17,7 +17,7 @@ const PlaceOrder = () => {
         data.status = 'pending';
 
         // const url = `http://localhost:5000/placeOrder`;
-        const url = `https://scary-goblin-67655.herokuapp.com/placeOrder`;
+        const url = `https://safe-caverns-74752.herokuapp.com/placeOrder`;
         fetch(url, {
             method: 'POST',
             headers: {
@@ -36,7 +36,7 @@ const PlaceOrder = () => {
 
     useEffect(() => {
         // const url = `http://localhost:5000/room/${roomId}`;
-        const url = `https://scary-goblin-67655.herokuapp.com/room/${roomId}`;
+        const url = `https://safe-caverns-74752.herokuapp.com/room/${roomId}`;
         fetch(url)
             .then(res => res.json())
             .then(data => setRoom(data))
